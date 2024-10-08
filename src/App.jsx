@@ -129,6 +129,7 @@ function App() {
               onChange={handleChange(setHypertensiveOption)}
               options={ansOptions}
               placeholder="Select"
+              className="select"
             />
           </li>
           <li>
@@ -138,6 +139,7 @@ function App() {
               onChange={handleChange(setHeartDiseaseOption)}
               options={ansOptions}
               placeholder="Select"
+              className="select"
             />
           </li>
           <li>
@@ -147,6 +149,7 @@ function App() {
               onChange={handleChange(setSmokeHistoryOption)}
               options={smokeHistoryOptions}
               placeholder="Select"
+              className="select"
             />
           </li>
           <li>
