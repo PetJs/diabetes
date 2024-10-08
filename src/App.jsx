@@ -108,6 +108,7 @@ function App() {
               onChange={handleChange(setGenderOption)}
               options={genderOptions}
               placeholder="Gender"
+              className="select"
             />
           </li>
           <li>

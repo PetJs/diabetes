@@ -59,6 +59,7 @@
   .styled-input {
     width: 100%; /* Full width for better usability */
     padding: 10px;
+    color: black;
     border: 1px solid #ddd;
     border-radius: 4px;
     box-sizing: border-box; /* Include padding and border in element's total width and height */
@@ -88,6 +89,10 @@
   
   .btn:hover {
     background-color: #004d40; /* Darker teal for hover effect */
+  }
+
+  .select{
+    color: black;
   }
   
 /* Style for the background overlay */
